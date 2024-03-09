@@ -35,6 +35,11 @@ let roomsDetails = [
 //Booking room details in a local variable
 let bookingRoom = [];
 
+//server running
+export const serverConnect = (req, res)=>{
+    res.status(200).json({message : `Hall Booking API Running, kindly check the API in Postman`});
+}
+
 //Creating a new room
 export const createRoom =  (req, res)=>{
     try{
