@@ -1,7 +1,7 @@
 
 # Hall-Booking-API
 
-It's my first Backend Server/API task which was designed using node and express. It's Guvi-Zen class Roadmap session: Day-37 and Nodejs- Day -1 Task.
+This is my Hall Booking API which was designed by me using NodeJs and ExpressJS. It's Guvi-Zen class Roadmap session: Day-38 and Nodejs- Day -2 Task.
 
 ## Tech Stack
 
