@@ -21,6 +21,10 @@ app.use(express.json());
 
 app.use('/', hallRouter);
 
+app.get('/', (req, res)=>{
+    res.status(200).json({message : `Hall Booking API Running, kindly check the API in Postman`});
+})
+
 
 //Listening the express server
 app.listen(PORT, ()=>{
